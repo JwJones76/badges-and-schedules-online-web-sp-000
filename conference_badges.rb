@@ -11,6 +11,8 @@ end
 
 def assign_rooms
   rooms = [1, 2, 3, 4, 5, 6, 7]
+  attendees.each do |name| rooms.each do |room|
+    puts "Hello, #{name}! You'll be assigned to room #{room}!"
 end
 
 def printer
